@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require 'gruffish/api'
-require 'gruffish/version'
-require 'gruffish/configuration'
-require 'gruffish/adapter'
-require 'gruffish/stub_registry'
+require_relative 'gruffish/api'
+require_relative 'gruffish/version'
+require_relative 'gruffish/configuration'
+require_relative 'gruffish/adapter'
+require_relative 'gruffish/stub_registry'
 
 module GrpcMock
   extend GrpcMock::Api

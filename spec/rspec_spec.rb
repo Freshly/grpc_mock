@@ -3,7 +3,7 @@
 require_relative 'examples/hello/hello_client'
 
 RSpec.describe 'gruffish/rspec' do
-  require 'gruffish/rspec'
+  require_relative '../lib/gruffish/rspec'
 
   before do
     GrpcMock.enable!

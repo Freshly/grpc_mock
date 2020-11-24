@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'gruffish/grpc_stub_adapter'
+require_relative 'gruffish/grpc_stub_adapter'
 
 module GrpcMock
   class Adapter

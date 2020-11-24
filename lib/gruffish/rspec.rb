@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'gruffish'
-require 'gruffish/dsl'
+require_relative 'dsl'
 
 RSpec.configure do |config|
   config.before(:suite) do

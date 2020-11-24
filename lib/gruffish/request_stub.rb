@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'gruffish/request_pattern'
-require 'gruffish/response'
-require 'gruffish/response_sequence'
-require 'gruffish/errors'
+require_relative 'request_pattern'
+require_relative 'response'
+require_relative 'response_sequence'
+require_relative 'errors'
 
 module GrpcMock
   class RequestStub

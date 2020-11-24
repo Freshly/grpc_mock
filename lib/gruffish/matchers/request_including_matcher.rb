@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'gruffish/matchers/hash_argument_matcher'
+require_relative 'hash_argument_matcher'
 
 module GrpcMock
   module Matchers

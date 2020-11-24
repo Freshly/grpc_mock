@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'gruffish/request_stub'
-require 'gruffish/action_stub'
-require 'gruffish/matchers/request_including_matcher'
+require_relative 'request_stub'
+require_relative 'action_stub'
+require_relative 'matchers/request_including_matcher'
 
 module GrpcMock
   module Api

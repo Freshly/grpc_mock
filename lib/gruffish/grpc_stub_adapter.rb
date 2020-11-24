@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'grpc'
-require 'gruffish/errors'
-require 'gruffish/operation_stub'
+require_relative 'errors'
+require_relative 'operation_stub'
 
 module GrpcMock
   class GrpcStubAdapter

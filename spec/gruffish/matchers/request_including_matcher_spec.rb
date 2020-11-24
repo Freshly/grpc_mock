@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'gruffish/matchers/request_including_matcher'
+require_relative '../lib/gruffish/matchers/request_including_matcher'
 
 RSpec.describe GrpcMock::Matchers::RequestIncludingMatcher do
   let(:matcher) do
