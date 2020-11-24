@@ -4,7 +4,7 @@ Library for stubbing grpc in Ruby.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile in the test/development group:
 
 ```ruby
 gem 'gruffish'
