@@ -2,7 +2,7 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'grpc_mock/version'
+require 'gruffish/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'gruffish'
@@ -14,6 +14,8 @@ Gem::Specification.new do |spec|
   spec.description   = 'Stubs your gRPCs with some gruffy magic'
   spec.homepage      = 'https://github.com/Freshly/gruffish'
   spec.license       = 'MIT'
+
+  spec.required_ruby_version = '>= 2.6.0'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

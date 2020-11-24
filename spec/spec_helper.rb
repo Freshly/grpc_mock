@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'grpc_mock'
+require 'gruffish'
 require 'pry'
 require 'faker'
 

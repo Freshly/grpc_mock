@@ -1,4 +1,4 @@
-# GrpcMock [![Build Status](https://travis-ci.org/ganmacs/grpc_mock.svg?branch=master)](https://travis-ci.org/ganmacs/grpc_mock)
+# Gruffish
 
 Library for stubbing grpc in Ruby.
 
@@ -7,7 +7,7 @@ Library for stubbing grpc in Ruby.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'grpc_mock'
+gem 'gruffish'
 ```
 
 And then execute:
@@ -16,19 +16,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install grpc_mock
+    $ gem install gruffish
 
 ## Usage
 
 If you use [RSpec](https://github.com/rspec/rspec), add the following code to spec/spec_helper.rb:
 
 ```ruby
-require 'grpc_mock/rspec'
+require 'gruffish/rspec'
 ```
 
 ## Examples
 
-See definition of protocol buffers and gRPC generated code in [spec/exmaples/hello](https://github.com/ganmacs/grpc_mock/tree/master/spec/examples/hello)
+See definition of protocol buffers and gRPC generated code in [spec/exmaples/hello](https://github.com/Freshly/gruffish/tree/master/spec/examples/hello)
 
 ### Stubbed request based on path and with the default response
 
@@ -109,7 +109,7 @@ GrpcMock.stub_request("/hello.hello/Hello").to_raise("Some error")
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ganmacs/grpc_mock. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Freshly/gruffish. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
