@@ -1,3 +1,5 @@
+## This repo has moved to [Freshly/proto_pharm](https://github.com/Freshly/proto_pharm)
+
 # ProtoPharm
 
 Stub your gRPCs with lab-grown proto objects. Life is better on the pharm.
